@@ -1,22 +1,22 @@
 body {
     background-color: #403f3f;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    justify-content: center;
+    align-items: center;    align-items: center;
     height: 100vh;
-    margin: 0;
-}
-
-.image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 img {
-    max-width: 100%;
+    width: 60%;
     height: auto;
-}
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
 p {
     color: #dcdcdc;
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
 }
