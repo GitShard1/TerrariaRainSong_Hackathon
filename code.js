@@ -49,6 +49,7 @@ document.addEventListener("mousemove", function (event) {
 
 document.addEventListener("click", function (event) {
     soundsAndDistances[currentnote].sound.currentTime = 0;
+    soundsAndDistances[currentnote].sound.volume = 0.1;
     soundsAndDistances[currentnote].sound.play();
     instructionText.textContent = currentnotetext;
 
