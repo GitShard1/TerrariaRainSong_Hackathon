@@ -3,18 +3,22 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    justify-content: center;
-    align-items: center;    align-items: center;
+    align-items: center;
     height: 100vh;
 }
 
-img {
-    width: 60%;
+#centerimgdiv {
+    width: 10%;
     height: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    opacity: 0.5;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: 1;
 }
 
 p {
@@ -43,4 +47,9 @@ p {
     pointer-events: none;
     opacity: 0.7;
     transform: translate(-50%, -50%);
+}
+
+#mousetxtdiv {
+    position: absolute;
+    display: block;
 }
